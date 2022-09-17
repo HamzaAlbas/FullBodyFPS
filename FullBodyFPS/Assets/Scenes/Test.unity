@@ -262,7 +262,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-24460
+  m_Name: pb_Mesh28436
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -733,7 +733,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh28392
+  m_Name: pb_Mesh28414
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -897,7 +897,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-26710
+  m_Name: pb_Mesh28396
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -5310,7 +5310,7 @@ Animator:
   m_GameObject: {fileID: 7820409355473398225}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 5917c0e93d180a842b61d1ebc62a195c, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6969630c0a22dd742bbeddbedcded020, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -5351,7 +5351,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 7820409355482913706}
-  playerSpeed: 6
+  animator: {fileID: 7820409355482913705}
+  playerSpeed: 3
   gravity: -19.62
   jumpHeight: 3
   groundCheck: {fileID: 1658159068}
